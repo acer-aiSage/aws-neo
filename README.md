@@ -23,7 +23,7 @@ aiSage support aws sagemaker neo runtime. You can install the sagemaker neo runt
 #### Upload your model to S3
 #### If needed install and configure the AWS CLI
 #### Invoke Neo with “RK3399” as the target from the AWS CLI
-      - a.	Use the following command: aws sagemaker create-compilation-job                                                --cli-input-json file:///tmp/job.json --region us-west-2
+      - a.	Use the following command: aws sagemaker create-compilation-job-cli-input-json file:///tmp/job.json --region us-west-2
       - b.	See Appendix A for a sample json you can provide
 ##### Download model from S3
 ##### Deploy to device and run with DLR.
